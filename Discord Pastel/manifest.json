@@ -1,0 +1,35 @@
+{
+    "manifest_version": 3,
+    "name": "Discord - Pastel",
+    "description": "Discord Pastel, Easy on the eyes - Version 2 will be dynamic",
+    "version": "1.1",
+    "icons":
+    {
+        "512": "icon_512.png"
+    },
+    "author": "Ashwin Nair",
+    "developer":
+    {
+        "name": "Ashwin Nair"
+    },
+    "mod":
+    {
+        "schema_version": 1,
+        "payload":
+        {
+            "page_styles":
+            [
+                {
+                    "matches":
+                    [
+                        "https://*.discord.com/*"
+                    ],
+                    "css":
+                    [
+                        "css/gradient.css"
+                    ]
+                }
+            ]
+        }
+    }
+}
